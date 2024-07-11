@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    padding: 20px;
+}
+
+.todo h1 {
+    margin-top: 0;
+}
+.todo p{
+    color: gray;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+#add {
+    background-color: #007BFF;
+    color: white;
+}
+
+li {
+    padding: 10px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.clear {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.empty {
+    background-color: #D9534F;
+    color: white;
+    border-radius: 10px;
+}
+
+.save {
+    background-color: #5CB85C;
+    color: white;
+    border-radius: 10px;
+}
+.buttons :hover{
+    background-color: aqua;
+}
